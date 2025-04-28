@@ -63,7 +63,7 @@ Key points:
 
 ---
 🔐 Communication Flow Diagram
-  [Server]
+ - [Server]
      |
      |--- Sends Public RSA Key ---> [Client]
      |<--- Sends AES Key (RSA-Encrypted) ---
