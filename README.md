@@ -53,24 +53,24 @@ Key points:
 
 ## 🗂 Project Structure and How to Run
 -📂 Project Files
-  ├── server.py    # Server application (RSA key generation, AES key handling, multi-client communication)
-  ├── client.py    # Client application (connects to server, exchanges keys, sends and receives encrypted messages)
+- ├── server.py    # Server application (RSA key generation, AES key handling, multi-client communication)
+- ├── client.py    # Client application (connects to server, exchanges keys, sends and receives encrypted messages)
 
 -🚀 Running the Project
-   ├── python server.py   #The server will start listening for incoming client connections.
-   ├── python client.py   #You can run multiple clients in different terminals to simulate multiple users communicating securely.
+-  ├── python server.py   #The server will start listening for incoming client connections.
+-  ├── python client.py   #You can run multiple clients in different terminals to simulate multiple users communicating securely.
 
 
 ---
 🔐 Communication Flow Diagram
  - [Server]
-     |
-     |--- Sends Public RSA Key ---> [Client]
-     |<--- Sends AES Key (RSA-Encrypted) ---
-     |
-  [Server & Client]
-     |
-     |--- (Secure AES Encrypted Communication) <--->
+ -   |
+ -   |--- Sends Public RSA Key ---> [Client]
+ -   |<--- Sends AES Key (RSA-Encrypted) ---
+ -   |
+- [Server & Client]
+-    |
+-    |--- (Secure AES Encrypted Communication) <--->
 ---
 # 🏆 Thank you for visiting our project!
 Give me like like such effective 
